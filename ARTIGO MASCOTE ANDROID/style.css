@@ -1,0 +1,248 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'IDroid';
+    src: url('assets/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #89CDA5;
+    margin: 0px;
+    padding: 1px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+header {
+    height: 110px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #5ABA7A, #295B38);
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+#titulo-principal {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+#slogan {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+nav {
+    background-color: #295B38;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+nav > a:hover {
+    background-color: #5ABA7A;
+}
+
+section {
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px 20px 10px 20px;
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+section > h1 {
+    color: #295B38;
+    font-size: 2em;
+    font-family: 'IDroid', sans-serif;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    margin: 0px;
+}
+
+picture {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+img#bugdroid {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.texto > h2 {
+    color: #295B38;
+    font-family: 'IDroid', sans-serif;
+    background-image: linear-gradient(to right, #89CDA5, white);
+    padding: 2px;
+    padding-left: 10px;
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 10px 0px 0px 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+.destaque-verde {
+    color: #295B38;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    font-weight: bold;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+article > p > a {
+    padding: 2px;
+    color: #295B38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article > p > a::after {
+    content: "\00a0\1F517";
+}
+
+article > p > a:hover {
+    color: white;
+    background-color: #295B38;
+}
+
+#video {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 56.25%;
+    margin: 0px;
+    background-color: #295B38;
+}
+
+iframe {
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    width: 90%;
+    height: 95%;
+}
+
+aside {
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+aside > h2 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: #5ABA7A;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: -10px -10px 20px -10px;
+}
+
+aside > p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2em;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+aside > ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 30px;
+}
+
+aside > p > a {
+    padding: 2px;
+    color: #295B38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside > p > a::after {
+    content: "\00a0\1F517";
+}
+
+aside > p > a:hover {
+    color: white;
+    background-color: #295B38;
+}
+
+footer {
+    background-color: #295B38;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    padding: 5px;
+}
+
+footer > p > a {
+    padding: 2px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > a::after {
+    content: "\00a0\1F517";
+}
+
+footer > p > a:hover {
+    color: black;
+    background-color: white;
+}
